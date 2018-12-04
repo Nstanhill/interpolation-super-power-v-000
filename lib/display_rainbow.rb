@@ -1,1 +1,13 @@
-# Write your #display_rainbow method here
+color_list = ['red','orange','yellow','green','blue','indigo','violet']
+
+def display_rainbow (color_list)
+  puts color_list[0] 
+  puts "O: #{color_list[1]}"
+  puts "Y: #{color_list[2]}"
+  puts "G: #{color_list[3]}"
+  puts "B: #{color_list[4]}"
+  puts "I: #{color_list[5]}"
+  puts "V: #{color_list[6]}"
+end
+
+display_rainbow(color_list)
